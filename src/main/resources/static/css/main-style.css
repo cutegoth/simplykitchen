@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Nanum Myeongjo, serif;
+    font-weight: 350;
+    color: black;
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+/*hr {*/
+/*    display: block;*/
+/*    height: 1px;*/
+/*    border: 0;*/
+/*    border-top: 1px solid #ccc;*/
+/*    margin: 1em 0;*/
+/*    padding: 0;*/
+/*}*/
+
+.navbar {
+    font-weight: 900;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-light {
+    background: #f1ddbe;
+}
+a {
+    margin: 0 10px;
+}
+
+
+.img-wrap {
+    position: relative;
+}
+
+.hr {
+    text-align: center;
+    width: 500px;
+    size:6px;
+    color: #f1ddbe;
+}
+
+.img-wrap h1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+    text-align: center;
+    padding-bottom: 25%;
+}
+.categ-content {
+    padding: 50px;
+}
+.btn-categ:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.dishes-list {
+    padding: 80px;
+    background-color:  #f1ddbe;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 2px;
+}
+.dishes-list .row {
+
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Nanum Myeongjo, serif;
+    font-weight: 350;
+    color: black;
+}
+
